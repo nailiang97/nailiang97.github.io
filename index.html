@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - pen#PwLXXP</title>
+  <link rel="stylesheet" href="./normalize.min.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- <audio src="1.mp3" autoplay="autoplay" controls="controls" preload="auto"></audio> -->
+
+
+<audio src="1.mp3" loop autostart id="music" controls></audio><script>    function playMusic() {        music.play();//移除事件        document.removeEventListener('click', playMusic);    }    document.addEventListener('click', playMusic);</script>
+
+
+  <script src='./jquery.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
